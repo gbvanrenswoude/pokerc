@@ -32,7 +32,8 @@ pokerc 3 "RHQ BSA" "RH3 RC3 BD3 BDA BSK"
 
 ## Gaps
 
-PokerCalc currently does not check for double card entries in the players own hand. This means that if you enter something like "RH3 RH3" as your hand, PokerCalc will not complain. 
+- PokerCalc currently does not check for double card entries in the players own hand. This means that if you enter something like "RH3 RH3" as your hand, PokerCalc will not complain. 
+- PokerCalc currently does not support substracting players from the table. So, if post flop players fold, just substract them from the playercount given in. This will not in significant numbers affect the simulation.
 
 ## Download and Run
 You can download the appropriate binary for your operating system from the dist folder in this repository. The available binaries are:
